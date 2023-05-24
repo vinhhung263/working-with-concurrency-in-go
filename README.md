@@ -22,6 +22,7 @@
     go test -v . 
 - Test coverage : 
     go test -coverprofile=coverage.out
+    
     go tool cover -html=coverage.out
    
 # Usage
